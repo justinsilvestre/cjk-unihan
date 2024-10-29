@@ -1,6 +1,6 @@
 {
-  "name": "cjk-unihan",
-  "version": "0.0.3",
+  "name": "@silvestre/cjk-unihan",
+  "version": "0.0.3-4",
   "description": "Node.js interface to Unihan database of CJK characters",
   "main": "lib/index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "url": "https://github.com/texh/cjk-unihan.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "sqlite3": "^4.0.9"
+  "peerDependencies": {
+    "sqlite3": ">= 4.0.9"
   },
   "devDependencies": {
     "jest": "^24.8.0",
